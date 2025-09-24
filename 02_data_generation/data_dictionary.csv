@@ -1,0 +1,14 @@
+
+Column Name	Description
+transaction_id	Unique transaction identifier
+user_id	Unique user identifier
+timestamp	Transaction timestamp
+amount_usd	Transaction amount in USD
+merchant_category	Type of merchant
+device_type	Apple device used
+location	City where transaction occurred
+is_foreign	Whether transaction is international (1 = yes)
+is_night	Whether transaction occurred at night (1 = yes)
+prior_fraud_flag	Whether user had prior fraud flags
+velocity_score	Normalized score of transaction frequency
+fraud_flag	Ground truth fraud label (1 = fraud)
